@@ -1,0 +1,31 @@
+.team-section {
+  padding: 3rem 1rem;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.member-card {
+  background: #e0e5ec;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 12px #c8d0e7, -6px -6px 12px #ffffff;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+}
+
+.member-card img {
+  width: 100%;
+  border-radius: 50%;
+}
