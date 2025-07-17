@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
                 <Mail className="icon" />
               </div>
               <h3 className="info-title">Email Us</h3>
-              <p className="info-text">hello@company.com</p>
+              <p className="info-text">willardjohn12345@gmail.com</p>
             </div>
 
             <div className="info-card">

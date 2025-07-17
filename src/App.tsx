@@ -5,7 +5,8 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
-import News from "./pages/News";   // <-- no .tsx extension here
+import News from "./pages/News";
+import Chatbot from "./pages/chatbot";  // Add this import
 import "./styles/Shared.css";
 
 const App: React.FC = () => {
@@ -16,10 +17,11 @@ const App: React.FC = () => {
         <About />
         <Services />
         <Team />
-        <News />      {/* Moved below Team */}
+        <News />
         <Contact />
       </main>
       <Footer />
+      <Chatbot />  {/* Add this - it will appear as a floating button */}
     </>
   );
 };
