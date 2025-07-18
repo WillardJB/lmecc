@@ -21,7 +21,7 @@ const App: React.FC = () => {
         <Contact />
       </main>
       <Footer />
-      <Chatbot />  {/* Add this - it will appear as a floating button */}
+      <Chatbot />  
     </>
   );
 };
